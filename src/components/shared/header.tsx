@@ -60,7 +60,7 @@ export function Header() {
                     'border-gray-200 bg-white/80 backdrop-blur-md'
                 :   'border-transparent bg-gradient-to-b from-white/50 to-white/0 backdrop-blur-sm',
             )}>
-            <div className='mx-auto max-w-[2000px] px-4'>
+            <div className='mx-auto max-w-[2000px] px-4 xl:px-10'>
                 <nav className='flex h-24 items-center justify-between'>
                     <Link href='/' className='group relative transition-all duration-200 hover:-translate-y-0.5'>
                         <span className='text-2xl font-bold text-gray-900 transition-colors duration-200 group-hover:text-sky-500'>
